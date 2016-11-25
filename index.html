@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>一卡通云平台</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="dep/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Ionicons -->
+    <link href="//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dep/adminLte/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <!-- iCheck -->
+    <link rel="stylesheet" href="dep/iCheck/flat/blue.css">
+    <!-- jvectormap -->
+    <link rel="stylesheet" href="dep/jvectormap/jquery-jvectormap-1.2.2.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="dep/datepicker/datepicker3.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="dep/daterangepicker/daterangepicker.css">
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet" href="dep/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <!-- bootstrap datatables - text editor -->
+    <link rel="stylesheet" href="dep/datatables/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="dep/bootstrap-table/bootstrap-table.css">
+    <!--用户业务CSS载入开始-->
+    <link rel="stylesheet" href="src/common/css/common.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="hold-transition skin-oneCC sidebar-mini fixed">
+<div class="wrapper">
+
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>云</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg">一卡通云平台</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+            <ul class="nav navbar-nav">
+                <li class="dropdown notifications-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="hidden-xs">上海汉军门禁公司</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="header">您有10条新的消息</li>
+                        <li>
+                            <!-- inner menu: contains the actual data -->
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-warning text-yellow"></i> Very long description here that
+                                        may not fit into the
+                                        page and may cause design problems
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users text-red"></i> 5 new members joined
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-user text-red"></i> You changed your username
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer"><a href="#">查看全部</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="dep/adminLte/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                            <span class="hidden-xs">张三</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="dep/adminLte/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                <p>
+                                    Alexander Pierce - Web Developer
+                                    <small>Member since Nov. 2012</small>
+                                </p>
+                            </li>
+                            <!-- Menu Body -->
+                            <li class="user-body">
+                                <div class="row">
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">Followers</a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">Sales</a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">Friends</a>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Notifications: style can be found in dropdown.less -->
+                    <li class="dropdown notifications-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-bell-o"></i>
+                            <span class="label label-warning">10</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">您有10条新的消息</li>
+                            <li>
+                                <!-- inner menu: contains the actual data -->
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-warning text-yellow"></i> Very long description here that
+                                            may not fit into the
+                                            page and may cause design problems
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-users text-red"></i> 5 new members joined
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-user text-red"></i> You changed your username
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer"><a href="#">查看全部</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu">
+                <li class="active"><a href="#occ/src/biz1/biz1"><i class="fa fa-book"></i> <span>首页</span></a></li>
+                <li><a href="#occ/src/biz2/biz2"><i class="fa fa-circle-o text-red"></i> <span>部门/人员管理</span></a>
+                </li>
+                <li><a href="#"><i class="fa fa-circle-o "></i> <span>设备管理</span></a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> <span>门禁管理</span></a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> <span>考勤管理</span></a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> <span>个人中心</span></a></li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+        </section>
+        <!-- Main content -->
+        <section class="content">
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 1.0
+        </div>
+        <strong>版权所有 &copy; 2014-2016 杭州海康威视系统技术有限公司.</strong>
+    </footer>
+
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+
+    </aside>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+
+
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 2.2.3 -->
+<script src="dep/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="dep/jQueryUI/jquery-ui.min.js"></script>
+<!-- underscore and backbone -->
+<script src="dep/underscore/underscore-min.js"></script>
+<script src="dep/backbone/backbone-min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 UI基础样式 -->
+<script src="dep/bootstrap/js/bootstrap.min.js"></script>
+<!-- daterangepicker时间选择依赖包 -->
+<script src="//cdn.bootcss.com/moment.js/2.14.1/moment.min.js"></script>
+<script src="dep/daterangepicker/daterangepicker.js"></script>
+<!-- datepicker时间选择器 -->
+<script src="dep/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 html5代码兼容性 -->
+<script src="dep/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll 滚动条 -->
+<script src="dep/slimScroll/jquery.slimscroll.min.js"></script>
+<!--bootstrap-table表格组件-->
+<script src="dep/datatables/jquery.dataTables.js"></script>
+<script src="dep/datatables/dataTables.bootstrap.js"></script>
+<script src="dep/bootstrap-table/bootstrap-table.js"></script>
+<script src="dep/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+
+<!-- AdminLTE App 所有以上第三方组件初始化 -->
+<script src="dep/adminLte/js/app.js"></script>
+<!-- seaJs -->
+<script src="dep/seajs/sea.js"></script>
+<script>
+    window.basePath = "";
+    seajs.use(window.basePath + "/src/common/js/HiklyLib.js", function (app) {
+        var config = {
+            baseViewPath: window.basePath + "/src/main"
+        };
+        var m = new app(config)
+    });
+</script>
+</body>
+</html>

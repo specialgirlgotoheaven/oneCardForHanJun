@@ -1,0 +1,62 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "å¾®è½¯é›…é»‘", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.skin-oneCC .main-header {
+    height: 60px;
+}
+
+.skin-oneCC .main-header .logo {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "å¾®è½¯é›…é»‘", Arial, sans-serif;
+}
+
+.skin-oneCC .main-header .logo {
+    height: 60px;
+    background-color: #fff;
+    color: #333;
+    line-height: 60px;
+}
+
+.skin-oneCC .main-header .logo:hover {
+    background-color: #fff;
+}
+
+.skin-oneCC .main-header .navbar .nav > li > a {
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skin-oneCC .main-header .navbar .nav > li > a:hover,
+.skin-oneCC .main-header .navbar .nav > li.open > a,
+.skin-oneCC .main-header .navbar .nav > li.open > a:hover {
+    color: #fff;
+}
+
+.skin-oneCC .main-header .navbar .nav > li > a:hover, .skin-oneCC .main-header .navbar .nav > li > a:active, .skin-oneCC .main-header .navbar .nav > li > a:focus, .skin-oneCC .main-header .navbar .nav .open > a, .skin-oneCC .main-header .navbar .nav .open > a:hover, .skin-oneCC .main-header .navbar .nav .open > a:focus, .skin-oneCC .main-header .navbar .nav > .active > a {
+    background: #3299bc;
+}
+
+.skin-oneCC .main-header .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skin-oneCC .main-sidebar {
+    background: url("img/sidebarBg.png");
+}
+
+.skin-oneCC .main-sidebar, .left-side {
+    padding-top: 108px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.skin-oneCC .sidebar-menu > li > a {
+    color: #fff;
+}
+
+.skin-oneCC .sidebar-menu > li:hover > a, .skin-oneCC .sidebar-menu > li.active > a {
+    background: #3299bc;
+}
