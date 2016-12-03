@@ -1,0 +1,187 @@
+.triggerUp{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid #bbb;
+    position: absolute;
+    top: 17px;
+    left: -45px;
+}
+.dM .deviceContent{
+    width: 100%;min-height:230px;
+}
+.dM .mainContent{
+    width:100%;height: 100%;
+    padding-right:360px;
+}
+
+.dM .rightSide{
+	position:absolute;
+	right:10px;
+  width:360px; height: 100%;float:right;background:#fff;
+}
+.dM .rightTop{
+    background: #2EABF2;
+    height: 150px;
+    position: relative;
+}
+
+.dM .rightTopTitle{
+    font-weight: 800;
+    font-size: 24px;
+}
+.dM .rightMain{
+    padding: 40px 20px 20px 20px;
+}
+.dM .rightMainTips{
+    font-size: 12px;
+    color:#aaa;
+    padding: 10px 0;
+}
+.dM .rightMainDiv{
+    width: 330px;
+    height: 200px;
+    border: 1px solid #aaa;
+    padding: 15px;
+    /* font-weight: 800; */
+}
+.dM .rightMainDiv1{
+    font-weight: 800;
+    padding: 2px 0px 6px 0px;
+}
+.dM .rightMainDiv2{
+    padding-left: 50px;
+}
+.dM .rightMainDiv2 .row{
+    padding: 8px 0px;
+}
+.dM .rightMainDiv .button{
+    width: 70px;
+    height: 32px;
+    border-radius: 20px;
+    color:#fff;
+    background:#2EABF2;
+    text-align: center;
+    line-height: 32px;
+    float: right;
+    cursor: pointer;
+}
+.dM .autoSearchButton{
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    height: 36px;
+    border:1px solid #ddd;
+    border-radius: 20px;
+    color:#2EABF2;
+    top: 136px;
+    background: #fff;
+    text-align: center;
+    line-height: 36px;
+    left: 70px;
+}
+.dM .manualSearchButton{
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    height: 36px;
+    border:1px solid #ddd;
+    border-radius: 20px;
+    color:#2EABF2;
+    background: #fff;
+    top: 136px;
+    right: 70px;
+    text-align: center;
+    line-height: 36px;
+}
+.dM .contentBox{
+    float:left;
+    width: 285px;
+    height: 165px;
+    margin:0px 20px 20px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    background: #fff;
+}
+.dM .contentBoxBar{
+	height: 125px;padding:10px 30px 30px 30px
+}
+.dM .contentBoxRow2{
+    text-align: center;
+}
+.dM .contentBoxRow3{
+    text-align: center;
+}
+.dM .fontWeight{
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+.dM .contentBoxBottom{
+/*    border-top: 1px solid #ddd;width: 255px;margin: 0 15px;*/
+    border-top: 1px solid #ddd;width: 255px;height:40px;margin: 0 15px;display: flex;flex-direction: row;justify-content:space-between;padding: 10px
+}
+.dM .contentBoxBottom .more{
+    position: relative;
+}
+
+.dM .contentBoxBottom .more ul{
+    padding: 0;
+    position: absolute;
+    z-index: 2000;
+    border: 1px solid #bbb;
+    color: #777;
+    left: -80px;
+    top: 24px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+.dM .contentBoxBottom .more li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    /* z-index: 3000; */
+    /* position: absolute; */
+    padding: 4px;
+    margin: auto;
+    cursor: pointer;
+}
+.dM .contentBoxBottom .more li .icon1,.dM .contentBoxBottom .more li .icon2,.dM .contentBoxBottom .more li .icon3,.dM .contentBoxBottom .more li .icon4{
+    display:inline-block;
+    width:10px;
+    height: 10px;
+}
+.dM .contentBoxBottom .more li:hover{
+    color:white;
+    background: #666;
+}
+.dM .contentBoxBottom1{
+    display:inline-block;
+    width: 70px;
+    height:20px;
+    border-right: 1px solid #ddd;
+    color:#2EABF2;
+    text-align: center;
+    cursor: pointer;
+}
+.dM .contentBoxBottom2{
+    display:inline-block;
+    width: 70px;
+    height:20px;
+    border-right: 1px solid #ddd;
+    color:#2EABF2;
+    text-align: center;
+    cursor: pointer;
+}
+.dM .contentBoxBottom3{
+    display:inline-block;
+    width: 70px;
+    height:20px;
+    color:#2EABF2;
+    text-align: center;
+    cursor: pointer;
+}
+
